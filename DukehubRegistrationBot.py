@@ -1,7 +1,4 @@
-# This script automatically reserves Wilson weightlifting slots.
-# usage: python GymScheduler.py --day=monday --startTime=9:20AM
-# use cron (unix) or TaskScheduler (windows) to get this to run automatically 48 hours before
-# you need selenium webdriver for chrome and selenium python bindings installed.
+# This script automatically logs in to Dukehub and hits the enroll button at a designated time
 
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
